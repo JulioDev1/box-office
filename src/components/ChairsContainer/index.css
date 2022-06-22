@@ -1,0 +1,14 @@
+.container-chairs {
+  width: 500px;
+  height: 300px;
+
+  color: white;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(8, 12%);
+  background-color: rgb(177, 177, 177);
+  border-radius: 20px;
+  padding: 30px;
+}
+

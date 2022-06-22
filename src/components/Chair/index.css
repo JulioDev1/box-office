@@ -1,0 +1,20 @@
+.chair {
+  height: 40px;
+  width: 40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.chair--0 {
+  background-color: rgb(125, 125, 125);
+}
+
+.chair--1 {
+  background-color: blue;
+}
+
+.chair--2 {
+  background-color: red;
+}
