@@ -3,8 +3,9 @@ import React from "react";
 import "./index.css";
 
 const Chair = (props) => {
-  const id= props.id;
-  const [state, setState] = React.useState(props.state);
+  const id = props.id;
+  const [state, setState] = React.useState(props.chairState);
+  const updateChairStates = props.handleClick
 
   function handleClick() {
     if(state == 0) {
@@ -12,7 +13,6 @@ const Chair = (props) => {
     } else if(state == 1) {
       setState(0);
     }
-
   }
 
   return <div className={`${id} chair chair--${state}`} onClick={handleClick}></div>;

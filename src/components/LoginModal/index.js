@@ -2,10 +2,9 @@ import React from "react";
 import "./index.css";
 import Input from "../Input";
 import Button from "../Button";
-const LoginModal = (props) => {
-  let value = "dasdkçasdjsad";
+const LoginModal = () => {
   return (
-    <div className="container-inputs">
+    <div className="login--modal">
       <h1>Login</h1>
       <Input type="text" placeholder="Write your email" />
       <Input type="password" placeholder="Password" />
